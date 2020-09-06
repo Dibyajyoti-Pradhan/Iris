@@ -1,0 +1,49 @@
+.header {
+  /* height: 95vh; */
+  height: 100vh;
+  background-image: linear-gradient(
+      to left top,
+      rgba($color-black-normal, 0.3),
+      rgba($color-black-light, 0.8)
+    ),
+    url(../img/hero.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  /* clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); */
+
+  &__logo {
+    height: 2.8rem;
+
+    &-box {
+      position: absolute;
+      top: 4rem;
+      left: 4rem;
+      align-items: center;
+    }
+    &:hover {
+      animation: shake 1s ease-out;
+    }
+    &-title {
+      padding-left: 0.5rem;
+      font-size: 3.5rem;
+      font-weight: 300;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__creator {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 85%;
+    text-align: center;
+  }
+}
