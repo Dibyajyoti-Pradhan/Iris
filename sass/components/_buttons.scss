@@ -49,6 +49,15 @@
       background-color: $color-white-light;
     }
   }
+
+  &--red {
+    background-color: $color-red-medium;
+    color: $color-white-light;
+
+    &::after {
+      background-color: $color-red-medium;
+    }
+  }
 }
 
 .btn-text {
