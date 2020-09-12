@@ -43,7 +43,7 @@
   }
   &--white {
     background-color: $color-white-light;
-    color: #777777;
+    color: $color-black-light;
 
     &::after {
       background-color: $color-white-light;

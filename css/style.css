@@ -160,7 +160,7 @@ body {
 
 .btn--white {
   background-color: #ffffff;
-  color: #777777; }
+  color: #666666; }
   .btn--white::after {
     background-color: #ffffff; }
 
@@ -200,7 +200,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 99.99%;
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
