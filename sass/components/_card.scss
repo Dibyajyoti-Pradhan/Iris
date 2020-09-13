@@ -19,7 +19,7 @@
       background-color: $color-white-light;
     }
     &--back {
-      transform: rotateY(180deg);
+      transform: rotate(-60deg) rotateY(180deg) rotateX(30deg);
       &-1 {
         background-image: linear-gradient(
           to right bottom,
@@ -44,7 +44,7 @@
     }
   }
   &:hover &__side--front {
-    transform: rotateY(-180deg);
+    transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg);
   }
   &:hover &__side--back {
     transform: rotateY(0);
