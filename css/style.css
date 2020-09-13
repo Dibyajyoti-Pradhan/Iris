@@ -402,10 +402,10 @@ body {
   padding: 20rem 0;
   background-image: linear-gradient(to bottom, rgba(226, 32, 32, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pok-4.jpg);
   background-size: cover;
-  transform: skewY(-6deg);
+  transform: skewY(-4deg);
   margin-top: -10.5rem; }
   .section-features > * {
-    transform: skewY(6deg); }
+    transform: skewY(4deg); }
 
 .section-plans {
   background-color: #f7f7f7;

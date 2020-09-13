@@ -13,10 +13,10 @@
     ),
     url(../img/pok-4.jpg);
   background-size: cover;
-  transform: skewY(-6deg);
+  transform: skewY(-4deg);
   margin-top: -10.5rem;
   & > * {
-    transform: skewY(6deg);
+    transform: skewY(4deg);
   }
 }
 
