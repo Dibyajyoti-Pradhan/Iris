@@ -91,7 +91,7 @@ body {
   letter-spacing: 0.2rem;
   transition: all 0.2s; }
   .heading-secondary:hover {
-    transform: skewY(-2deg) skewX(-15deg) scale(1.1);
+    transform: skewY(-3deg) skewX(-15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .heading-tertiary {
@@ -210,11 +210,11 @@ body {
     .card__side--back {
       transform: rotate(-60deg) rotateY(180deg) rotateX(30deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #22ca22, #338a33); }
+        background-image: linear-gradient(to right bottom, #22ca22, #2a702a); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #276aaa); }
+        background-image: linear-gradient(to right bottom, #29a9ff, #276aaa); }
   .card:hover .card__side--front {
     transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg); }
   .card:hover .card__side--back {
@@ -228,11 +228,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #22ca22, #338a33), url(../img/pok-5.jpg); }
+      background-image: linear-gradient(to right bottom, #22ca22, #2a702a), url(../img/pok-5.jpg); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/pok-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #276aaa), url(../img/pok-7.jpg); }
+      background-image: linear-gradient(to right bottom, #29a9ff, #276aaa), url(../img/pok-7.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -248,11 +248,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(34, 202, 34, 0.85), rgba(51, 138, 51, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(34, 202, 34, 0.85), rgba(42, 112, 42, 0.85)); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(39, 106, 170, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(41, 169, 255, 0.85), rgba(39, 106, 170, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -358,7 +358,7 @@ body {
 .header {
   /* height: 95vh; */
   height: 95vh;
-  background-image: linear-gradient(to left top, rgba(143, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../img/hero.jpeg);
+  background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../img/hero.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -400,7 +400,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to bottom, rgba(226, 32, 32, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pok-4.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../img/pok-4.jpg);
   background-size: cover;
   transform: skewY(-4deg);
   margin-top: -10.5rem; }
