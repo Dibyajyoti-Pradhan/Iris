@@ -32,9 +32,10 @@
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(
-    to right bottom,
-    rgba($color-white-light, 1),
-    rgba($color-red-dark, 0.2)
+    -7deg,
+    rgba($color-black-light, 1) 0%,
+    rgba($color-black-light, 0.5) 50%,
+    rgba($color-grey-light, 0.5) 50%
   );
 }
 
