@@ -566,7 +566,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(-7deg, #666666 0%, rgba(102, 102, 102, 0.5) 50%, rgba(170, 170, 170, 0.5) 50%); }
+  background-image: linear-gradient(-7deg, #aaaaaa 0%, rgba(0, 0, 0, 0.7) 5%, rgba(170, 170, 170, 0) 10%, rgba(170, 170, 170, 0.9) 10%, rgba(0, 0, 0, 0.7) 15%, rgba(170, 170, 170, 0.1) 20%, rgba(170, 170, 170, 0.8) 20%, rgba(0, 0, 0, 0.7) 25%, rgba(170, 170, 170, 0.2) 30%, rgba(170, 170, 170, 0.7) 30%, rgba(0, 0, 0, 0.7) 35%, rgba(170, 170, 170, 0.3) 40%, rgba(170, 170, 170, 0.6) 40%, rgba(0, 0, 0, 0.7) 45%, rgba(170, 170, 170, 0) 50%, rgba(170, 170, 170, 0) 50%, rgba(0, 0, 0, 0.7) 55%, rgba(170, 170, 170, 0.6) 60%, rgba(170, 170, 170, 0.3) 60%, rgba(0, 0, 0, 0.7) 65%, rgba(170, 170, 170, 0.7) 70%, rgba(170, 170, 170, 0.2) 70%, rgba(0, 0, 0, 0.7) 75%, rgba(170, 170, 170, 0.8) 80%, rgba(170, 170, 170, 0.1) 80%, rgba(0, 0, 0, 0.7) 85%, rgba(170, 170, 170, 0.9) 90%, rgba(170, 170, 170, 0) 90%, rgba(0, 0, 0, 0.7) 95%, #aaaaaa 100%); }
 
 .book {
   background-image: linear-gradient(100deg, white 0%, rgba(255, 255, 255, 0.1) 45%, transparent 45%), url(../img/book.jpg);
