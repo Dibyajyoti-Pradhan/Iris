@@ -212,24 +212,31 @@ body {
 
 .card {
   perspective: 150rem;
+  -webkit-perspective: 150rem;
   -moz-perspective: 150rem;
   height: 50rem;
   position: relative; }
   .card__side {
     height: 50rem;
     transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
     position: absolute;
     top: 0;
     left: 0;
     width: 99.99%;
     backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
       background-color: #ffffff; }
     .card__side--back {
-      transform: rotate(-60deg) rotateY(180deg) rotateX(30deg); }
+      transform: rotate(-60deg) rotateY(180deg) rotateX(30deg);
+      -webkit-transform: rotateY(180deg) rotateX(30deg);
+      -moz-transform: rotate(-60deg) rotateY(180deg) rotateX(30deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #22ca22, #2a702a); }
       .card__side--back-2 {
@@ -237,9 +244,13 @@ body {
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #29a9ff, #276aaa); }
   .card:hover .card__side--front {
-    transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg); }
+    transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg);
+    -webkit-transform: rotateY(-180deg) rotateX(-30deg);
+    -moz-transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg); }
   .card:hover .card__side--back {
-    transform: rotateY(0); }
+    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0); }
   .card__picture {
     background-size: cover;
     height: 23rem;
@@ -291,6 +302,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     width: 90%;
     text-align: center; }
   .card__price-box {
