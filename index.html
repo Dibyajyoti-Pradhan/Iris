@@ -14,13 +14,56 @@
     <title>Iris | Making the world a better place</title>
   </head>
   <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <span class="navigation__creator">Created by Dibyajyoti</span>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link"
+              ><span>01</span>Be a part of the evolution</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#features" class="navigation__link"
+              ><span>02</span>Features</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#plans" class="navigation__link"
+              ><span>03</span>Our plans</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#stories" class="navigation__link"
+              ><span>04</span>Voices of Poké Trainers</a
+            >
+          </li>
+
+          <li class="navigation__item">
+            <a href="#booking" class="navigation__link"
+              ><span>05</span>Start Catching</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#footer" class="navigation__link"
+              ><span>06</span>About IRIS</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <header class="header">
       <div>
         <div class="header__logo-box">
           <img src="img/favicon.png" alt="Logo" class="header__logo" />
           <span class="header__logo-title">Iris</span>
         </div>
-        <span class="header__creator">Created by Dibyajyoti</span>
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
@@ -123,7 +166,7 @@
           </div>
         </div>
       </section>
-      <section class="section-plans">
+      <section id="plans" class="section-plans">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Our plans</h2>
         </div>
