@@ -235,7 +235,7 @@ body {
       background-color: #ffffff; }
     .card__side--back {
       transform: rotate(-60deg) rotateY(180deg) rotateX(30deg);
-      -webkit-transform: rotateY(180deg) rotateX(30deg);
+      -webkit-transform: rotate(-60deg) rotateY(180deg) rotateX(30deg);
       -moz-transform: rotate(-60deg) rotateY(180deg) rotateX(30deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #22ca22, #2a702a); }
@@ -245,7 +245,7 @@ body {
         background-image: linear-gradient(to right bottom, #29a9ff, #276aaa); }
   .card:hover .card__side--front {
     transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg);
-    -webkit-transform: rotateY(-180deg) rotateX(-30deg);
+    -webkit-transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg);
     -moz-transform: rotate(-60deg) rotateY(-180deg) rotateX(-30deg); }
   .card:hover .card__side--back {
     transform: rotateY(0);
