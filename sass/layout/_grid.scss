@@ -5,7 +5,7 @@
     margin-bottom: $gutter-vertical;
   }
 
-  @include clearflix;
+  @include clearfix;
 
   // Contains with col-
   //   [class*="col-"] {
