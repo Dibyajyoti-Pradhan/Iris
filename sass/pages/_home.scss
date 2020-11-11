@@ -18,7 +18,6 @@
   background-size: cover;
   transform: skewY(-4deg);
   margin-top: -10.5rem;
-  background-attachment: fixed;
 
   & > * {
     transform: skewY(4deg);
@@ -26,7 +25,6 @@
 
   @include respond(tab-port) {
     padding: 10rem 0;
-    background-attachment: scroll;
   }
 }
 
