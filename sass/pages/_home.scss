@@ -18,12 +18,15 @@
   background-size: cover;
   transform: skewY(-4deg);
   margin-top: -10.5rem;
+  background-attachment: fixed;
+
   & > * {
     transform: skewY(4deg);
   }
 
   @include respond(tab-port) {
     padding: 10rem 0;
+    background-attachment: scroll;
   }
 }
 
@@ -78,8 +81,10 @@
     rgba($color-black-normal, 0.7) 95%,
     rgba($color-grey-light, 1) 100%
   );
+  background-attachment: fixed;
   @include respond(tab-port) {
     padding: 10rem 0;
+    background-attachment: scroll;
   }
 }
 
