@@ -74,6 +74,12 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
+@keyframes loop {
+  from {
+    transform: rotateX(0deg) rotateY(0deg); }
+  to {
+    transform: rotateX(360deg) rotateY(360deg); } }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -702,6 +708,33 @@ body {
     height: auto; }
     .footer__logo:hover {
       animation: shake 0.8s ease-out; }
+  .footer__cube {
+    position: relative;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    animation: loop 10s linear infinite; }
+    .footer__cube-wrap {
+      perspective: 1000px;
+      perspective-origin: 50% 50%;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    .footer__cube img {
+      position: absolute;
+      opacity: 0.8; }
+      .footer__cube img:nth-child(1) {
+        transform: rotateY(0deg) translateZ(100px); }
+      .footer__cube img:nth-child(2) {
+        transform: rotateY(90deg) translateZ(100px); }
+      .footer__cube img:nth-child(3) {
+        transform: rotateY(180deg) translateZ(100px); }
+      .footer__cube img:nth-child(4) {
+        transform: rotateY(-90deg) translateZ(100px); }
+      .footer__cube img:nth-child(5) {
+        transform: rotateX(90deg) translateZ(100px); }
+      .footer__cube img:nth-child(6) {
+        transform: rotateX(-90deg) translateZ(100px); }
   .footer__logo-text {
     font-size: 8.5rem;
     padding-left: 0.5rem;
