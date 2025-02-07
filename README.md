@@ -14,6 +14,6 @@ I would highly recommend to learn the working of advanced CSS from this course: 
 
 ## Demo
 
-Website: https://dibyajyoti-pradhan-iris.netlify.app
+Website: https://dibyajyoti-pradhan.github.io/Iris
 
 ![Demo](demo.gif)
